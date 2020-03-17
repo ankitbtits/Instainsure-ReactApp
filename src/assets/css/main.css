@@ -18,7 +18,7 @@ body{
   font-size: 1.2vw;
   line-height: 2.3vw;
 }
-body, a, p, input{
+body, a, p, input, textarea, select{
   font-family: 'cera_proregular';
   outline: none;
 }
@@ -60,6 +60,7 @@ h1
   font-size: 2.6041666666666665vw;
   margin: auto 2.6041666666666665vw 0;
   font-family: 'cera_probold';
+  color: #fff;
 }
 ._custom_radio {
   position: relative;
@@ -348,4 +349,53 @@ footer
   font-size: .8vw;
   padding: .2vw 3vw;
   margin-left: 2vw;
+}
+.contact_top
+{
+  background-image: url('../images/contact-banner-01.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 5vw 0;
+}
+.comtact_content
+{
+  padding-left: 5vw;
+}
+.comtact_content div
+{
+  padding: 1vw;
+  background-color: #F3F3F3;
+  color: #231F20;
+}
+._textfield2 {
+  padding: 1vw 1vw;
+}
+._textfield2 input, ._textfield2 textarea {
+  border: none;
+  background: #f7f7f7;
+  padding: .5vw 1vw;
+  width: 100%;
+  border-radius: .7vw;
+  -webkit-border-radius: .7vw;
+  -moz-border-radius: .7vw;
+}
+._textfield2 textarea
+{
+  height: 10vw;
+}
+._submit_btn4 input{
+  background-color: #C92039;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+  border-radius: .7vw;
+  -webkit-border-radius: .7vw;
+  -moz-border-radius: .7vw;
+  padding: .5vw 4vw;
+}
+._contact_con
+{
+  padding: 5vw 0;
 }
