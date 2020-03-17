@@ -10,6 +10,7 @@ function Contact(){
         </div>
         <div className="container">
             <div className="row _contact_con">
+                <div className="col-12 row">
                 <div className="col-12 col-md-7 text-left">
                     <h2>Keep in touch with us</h2>
                     <form className="row">
@@ -39,11 +40,34 @@ function Contact(){
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     </div>
                 </div>
+                </div>
             </div>
-            <div className="row">
-                <h2>We're located at</h2>
-                <div className="row">
-                    <div className="col-12 col-md-6"></div>
+            <div className="row mb-7">
+                <div className="col-12 text-left">
+                    <h2>We're located at</h2>
+                </div>
+                <div className="row col-12">
+                    <div className="col-12 col-md-6 _tabs_outer">
+                        <div className="row col-12">
+                            <ul className="_tabs">
+                                <li>CA</li>
+                                <li>IN</li>
+                                <li>NYC</li>
+                                <li>AK</li>
+                                <li>LA</li>
+                                <li>ME</li>
+                            </ul>
+                        </div>                        
+                        <div className="row col-12 text-left">
+                            <p>Instainsure CA<br/>
+                            WE54, New York Queens, NY 12121.<br/>
+                            1.800.699.6320<br/>
+                            info@example.com</p>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-6 _map pad-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3023.6752502007657!2d-73.992009!3d40.725165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259851c1e9037%3A0x74407071825a96a4!2sCBGB!5e0!3m2!1sen!2sus!4v1395419817211"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
