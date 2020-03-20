@@ -401,7 +401,6 @@ footer
 }
 ul._tabs {
   margin: 1vw 0 2vw;
-  padding: 0;
   list-style: none;
   text-align: left;
   display: table;
@@ -412,6 +411,10 @@ ul._tabs li {
     font-size: 1.8vw;    
     font-family: 'cera_probold';
     color:#D1D3D4;
+    cursor: pointer;
+}
+ul._tabs li.react-tabs__tab--selected{
+  color: #111f44;
 }
 ._map iframe {
   height:100%;

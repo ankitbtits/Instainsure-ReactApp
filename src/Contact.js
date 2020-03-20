@@ -1,4 +1,5 @@
 import React from 'react';
+import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 
 function Contact(){
     return(        
@@ -46,29 +47,96 @@ function Contact(){
                 <div className="col-12 text-left">
                     <h2>We're located at</h2>
                 </div>
-                <div className="row col-12">
-                    <div className="col-12 col-md-6 _tabs_outer">
-                        <div className="row col-12">
-                            <ul className="_tabs">
-                                <li>CA</li>
-                                <li>IN</li>
-                                <li>NYC</li>
-                                <li>AK</li>
-                                <li>LA</li>
-                                <li>ME</li>
-                            </ul>
-                        </div>                        
-                        <div className="row col-12 text-left">
-                            <p>Instainsure CA<br/>
-                            WE54, New York Queens, NY 12121.<br/>
-                            1.800.699.6320<br/>
-                            info@example.com</p>
+                <Tabs className="row col-12">
+                    <div className="row col-12">
+                        <TabList className="_tabs col-6">
+                            <Tab>CA</Tab>
+                            <Tab>IN</Tab>
+                            <Tab>NYC</Tab>
+                            <Tab>AK</Tab>
+                            <Tab>LA</Tab>
+                            <Tab>ME</Tab> 
+                        </TabList>
+                    </div> 
+                    <TabPanel className="row col-12">
+                        <div className="col-12 col-md-6 _tabs_outer">                      
+                            <div className="row col-12 text-left">
+                                <p>Instainsure CA<br/>
+                                WE54, New York Queens, NY 12121.<br/>
+                                1.800.699.6320<br/>
+                                info@example.com</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="col-12 col-md-6 _map pad-0">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3023.6752502007657!2d-73.992009!3d40.725165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259851c1e9037%3A0x74407071825a96a4!2sCBGB!5e0!3m2!1sen!2sus!4v1395419817211"></iframe>
-                    </div>
-                </div>
+                        <div className="col-12 col-md-6 _map pad-0">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3023.6752502007657!2d-73.992009!3d40.725165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259851c1e9037%3A0x74407071825a96a4!2sCBGB!5e0!3m2!1sen!2sus!4v1395419817211"></iframe>
+                        </div>
+                    </TabPanel>                    
+                    <TabPanel className="row col-12">
+                        <div className="col-12 col-md-6 _tabs_outer">                      
+                            <div className="row col-12 text-left">
+                                <p>Instainsure IN<br/>
+                                WE54, New York Queens, NY 12121.<br/>
+                                1.800.699.6320<br/>
+                                info@example.com</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6 _map pad-0">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3023.6752502007657!2d-73.992009!3d40.725165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259851c1e9037%3A0x74407071825a96a4!2sCBGB!5e0!3m2!1sen!2sus!4v1395419817211"></iframe>
+                        </div>
+                    </TabPanel> 
+                    <TabPanel className="row col-12">
+                        <div className="col-12 col-md-6 _tabs_outer">                      
+                            <div className="row col-12 text-left">
+                                <p>Instainsure NYC<br/>
+                                WE54, New York Queens, NY 12121.<br/>
+                                1.800.699.6320<br/>
+                                info@example.com</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6 _map pad-0">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3023.6752502007657!2d-73.992009!3d40.725165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259851c1e9037%3A0x74407071825a96a4!2sCBGB!5e0!3m2!1sen!2sus!4v1395419817211"></iframe>
+                        </div>    
+                    </TabPanel> 
+                    <TabPanel className="row col-12">
+                        <div className="col-12 col-md-6 _tabs_outer">                      
+                            <div className="row col-12 text-left">
+                                <p>Instainsure AK<br/>
+                                WE54, New York Queens, NY 12121.<br/>
+                                1.800.699.6320<br/>
+                                info@example.com</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6 _map pad-0">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3023.6752502007657!2d-73.992009!3d40.725165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259851c1e9037%3A0x74407071825a96a4!2sCBGB!5e0!3m2!1sen!2sus!4v1395419817211"></iframe>
+                        </div>    
+                    </TabPanel> 
+                    <TabPanel className="row col-12">
+                        <div className="col-12 col-md-6 _tabs_outer">                      
+                            <div className="row col-12 text-left">
+                                <p>Instainsure LA<br/>
+                                WE54, New York Queens, NY 12121.<br/>
+                                1.800.699.6320<br/>
+                                info@example.com</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6 _map pad-0">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3023.6752502007657!2d-73.992009!3d40.725165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259851c1e9037%3A0x74407071825a96a4!2sCBGB!5e0!3m2!1sen!2sus!4v1395419817211"></iframe>
+                        </div>    
+                    </TabPanel> 
+                    <TabPanel className="row col-12">
+                        <div className="col-12 col-md-6 _tabs_outer">                      
+                            <div className="row col-12 text-left">
+                                <p>Instainsure ME<br/>
+                                WE54, New York Queens, NY 12121.<br/>
+                                1.800.699.6320<br/>
+                                info@example.com</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6 _map pad-0">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3023.6752502007657!2d-73.992009!3d40.725165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259851c1e9037%3A0x74407071825a96a4!2sCBGB!5e0!3m2!1sen!2sus!4v1395419817211"></iframe>
+                        </div>    
+                    </TabPanel> 
+                </Tabs>
             </div>
         </div>
     </div>

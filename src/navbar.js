@@ -15,22 +15,22 @@ function Navbar(){
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <Link class="nav-link" to="/">HOME <span class="sr-only">(current)</span></Link>
+                            <Link activeClassName="navbar__link--active" className="nav-link" to="/">HOME <span class="sr-only">(current)</span></Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" to="#">ABOUT US</Link>
+                            <Link activeClassName="navbar__link--active" className="nav-link" to="#">ABOUT US</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" to="#">INSTANT QUOTES</Link>
+                            <Link activeClassName="navbar__link--active" className="nav-link" to="#">INSTANT QUOTES</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" to="#">BLOGS</Link>
+                            <Link activeClassName="navbar__link--active" className="nav-link" to="#">BLOGS</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" to="#">FAQ</Link>
+                            <Link activeClassName="navbar__link--active" className="nav-link" to="#">FAQ</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" to="/Contact">CONTACT US</Link>
+                            <Link activeClassName="navbar__link--active" className="nav-link" to="/Contact">CONTACT US</Link>
                         </li>
                     </ul>
                 </div>
